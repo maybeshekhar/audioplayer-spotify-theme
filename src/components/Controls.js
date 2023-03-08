@@ -10,7 +10,7 @@ import {
 function Controls(props) {
   return (
     <div className="c-player--controls">
-      <button className="skip-btn" onClick={() => props.SkipSong(false)}>
+      <button className="skip-btn" onClick={() => props.skipSong(false)}>
         <FontAwesomeIcon icon={faBackward} />
       </button>
       <button
@@ -19,7 +19,7 @@ function Controls(props) {
       >
         <FontAwesomeIcon icon={props.isPlaying ? faPause : faPlay} />
       </button>
-      <button className="skip-btn" onClick={() => props.SkipSong()}>
+      <button className="skip-btn" onClick={() => props.skipSong()}>
         <FontAwesomeIcon icon={faForward} />
       </button>
     </div>

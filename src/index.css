@@ -23,7 +23,10 @@ body {
 
 .c-player {
   display: block;
-  background-image: linear-gradient(to bottom, rgb(21, 17, 21), rgb(51, 109, 3));
+  /* background-image: linear-gradient(to bottom, rgb(21, 17, 21), rgb(51, 109, 3)); */
+  background: url('../public/images/7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0px auto;
   padding: 30px;
   border-radius: 16px;
